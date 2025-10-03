@@ -1,0 +1,9 @@
+<div *ngIf="current">
+      <h3>Current Weather for {{ current.location }}, {{ current.country }}</h3>
+      <p>Temperature: {{ current.temperatureC }}°C ({{ current.temperatureF }}°F)</p>
+      <p>Condition: {{ current.condition }}</p>
+      <img [src]="current.conditionIcon" alt="condition icon">
+      <p>Wind: {{ current.windKph }} kph | Humidity: {{ current.humidity }}%</p>
+      <p>Feels like: {{ current.feelsLikeC }}°C | UV Index: {{ current.uvIndex }}</p>
+      <p>Last Updated: {{ current.lastUpdated }}</p>
+    </div>

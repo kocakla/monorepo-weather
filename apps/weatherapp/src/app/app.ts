@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { WeatherDashboardComponent } from '../../../../libs/dashboard/src/lib/dashboard/dashboard';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
   selector: 'app-root',
-  templateUrl: './app.html',
-  styleUrl: './app.css',
+  imports: [CommonModule, FormsModule, WeatherDashboardComponent],
+  templateUrl: `./app.html`,
 })
-export class App {
-  protected title = 'weatherapp';
-}
+export class App {}

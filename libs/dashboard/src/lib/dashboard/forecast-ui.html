@@ -1,0 +1,16 @@
+<div *ngIf="loading">Loading forecast...</div>
+<div *ngIf="errorMessage">{{ errorMessage }}</div>
+
+<div *ngIf="forecast" class="forecast-container">
+  <!-- Title of Forecast -->
+  <h2>3-Day Forecast for {{ forecast.location }}, {{ forecast.country }}</h2>
+
+ <!-- Timeline boxes -->
+  <div *ngIf="forecast">
+    <h3>Forecast</h3>
+    <div class="forecast-day" *ngFor="let day of forecast.forecast">
+      <p>{{ day.date }} - Avg Temp: {{ day.maxTempC }}°C</p>
+      <p>Condition: {{ day.conditionIcon }}</p>
+    </div>
+  </div>
+</div>

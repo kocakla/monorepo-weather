@@ -1,0 +1,14 @@
+<div>
+  <input [(ngModel)]="location" placeholder="Enter location"/>
+  <button (click)="search()">Search</button>
+</div>
+
+<div class="controls">
+  <button (click)="mode = 'current'">Show Current</button>
+  <button (click)="mode = 'forecast'">Show Forecast</button>
+</div>
+
+<div class="view">
+  <app-weather *ngIf="mode === 'current'" [current]="current"></app-weather>
+  <app-forecast *ngIf="mode === 'forecast'" [forecast]="forecast"></app-forecast>
+</div>
