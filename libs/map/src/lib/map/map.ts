@@ -1,8 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-map',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './map.html',
   styleUrl: './map.css',
 })

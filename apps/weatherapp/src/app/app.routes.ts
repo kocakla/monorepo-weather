@@ -3,4 +3,6 @@ import { WeatherDashboardComponent } from './../../../../libs/dashboard/src/lib/
 
 export const routes: Routes = [
   { path: '', component: WeatherDashboardComponent } // Default route
+  
+
 ];

@@ -1,14 +1,26 @@
-<div>
-  <input [(ngModel)]="location" placeholder="Enter location"/>
+
+<div class="dashboard-container">
+  <h2>Weather Dashboard</h2>
+
+  <input [(ngModel)]="location" placeholder="Location ..." />
   <button (click)="search()">Search</button>
-</div>
 
-<div class="controls">
-  <button (click)="mode = 'current'">Show Current</button>
-  <button (click)="mode = 'forecast'">Show Forecast</button>
-</div>
+  <div class="mode-buttons">
+    <button (click)="toggleMode('current')">Current</button>
+    <button (click)="toggleMode('forecast')">Forecast</button>
+    <button (click)="toggleMode('map')">Map</button>
+  </div>
 
-<div class="view">
-  <app-weather *ngIf="mode === 'current'" [current]="current"></app-weather>
-  <app-forecast *ngIf="mode === 'forecast'" [forecast]="forecast"></app-forecast>
+  <div *ngIf="mode === 'current'">
+    <app-weather *ngIf="mode === 'current'" [current]="current"></app-weather>
+  
+  </div>
+
+  <div *ngIf="mode === 'forecast'">
+    <app-forecast *ngIf="mode === 'forecast'" [forecast]="forecast"></app-forecast> 
+  </div>
+
+  <div *ngIf="mode === 'map'" class="map-wrapper">
+    <app-map></app-map>
+  </div>
 </div>
