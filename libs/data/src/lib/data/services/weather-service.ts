@@ -17,7 +17,7 @@ export class WeatherService {
   getCurrent(location: string): Observable<CurrentWeather> {
     const params = new HttpParams()
       .set('key', this.apiKey)
-      .set('q', location);
+      .set('q',  location);
 
     return this.http.get<any>(`${this.apiBase}/current.json`, { params }).pipe(
       retry(2),

@@ -17,7 +17,7 @@
     "paths": {
       "@monorepo-weather/dashboard": ["libs/dashboard/src/index.ts"],
       "@monorepo-weather/data": ["libs/data/src/index.ts"],
-      "@monorepo-weather/map": ["libs/map/src/index.ts"]
+      "@monorepo-weather/map": ["libs/map/src/index.ts"],
     }
   },
   "exclude": ["node_modules", "tmp"]

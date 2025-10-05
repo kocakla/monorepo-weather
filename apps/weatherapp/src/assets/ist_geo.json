@@ -1,0 +1,197 @@
+[
+      {
+        "District": "Adalar",
+        "Coordinates": "40.8678, 29.1331",
+        "Rating": 1
+      },
+      {
+        "District": "Arnavutkoy",
+        "Coordinates": "41.2482594, 28.6814495117807",
+        "Rating": 1
+      },
+      {
+        "District": "Atasehir",
+        "Coordinates": "40.9847487, 29.1067199",
+        "Rating": 2
+      },
+      {
+        "District": "Avcilar",
+        "Coordinates": "40.9801353, 28.7175465",
+        "Rating": 2
+      },
+      {
+        "District": "Bagcilar",
+        "Coordinates": "41.0447291, 28.8337135105443",
+        "Rating": 2
+      },
+      {
+        "District": "Bahcelievler",
+        "Coordinates": "41.0002895, 28.8637451",
+        "Rating": 2
+      },
+      {
+        "District": "Bakirkoy",
+        "Coordinates": "40.9806359, 28.8628745",
+        "Rating": 1
+      },
+      {
+        "District": "Basaksehir",
+        "Coordinates": "41.1027276, 28.7724595536567",
+        "Rating": 2
+      },
+      {
+        "District": "Bayrampasa",
+        "Coordinates": "41.0512479, 28.8984693647258",
+        "Rating": 2
+      },
+      {
+        "District": "Besiktas",
+        "Coordinates": "41.0716178, 29.0305381519225",
+        "Rating": 1
+      },
+      {
+        "District": "Beykoz",
+        "Coordinates": "41.1439, 29.0906",
+        "Rating": 1
+      },
+      {
+        "District": "Beylikduzu",
+        "Coordinates": "41.0010788, 28.642054",
+        "Rating": 1
+      },
+      {
+        "District": "Beyoglu",
+        "Coordinates": "41.0434614, 28.9624575679829",
+        "Rating": 2
+      },
+      {
+        "District": "Buyukcekmece",
+        "Coordinates": "41.0128, 28.5382",
+        "Rating": 2
+      },
+      {
+        "District": "Catalca",
+        "Coordinates": "41.1420, 28.4638",
+        "Rating": 1
+      },
+      {
+        "District": "Cekmekoy",
+        "Coordinates": "41.0543213, 29.2445387",
+        "Rating": 1
+      },
+      {
+        "District": "Esenler",
+        "Coordinates": "41.0620017, 28.8695377605765",
+        "Rating": 2
+      },
+      {
+        "District": "Esenyurt",
+        "Coordinates": "41.04892005, 28.6581173127615",
+        "Rating": 2
+      },
+      {
+        "District": "Eyupsultan",
+        "Coordinates": "41.0460444, 28.9253241",
+        "Rating": 1
+      },
+      {
+        "District": "Fatih",
+        "Coordinates": "41.014462, 28.9545506959692",
+        "Rating": 1
+      },
+      {
+        "District": "Gaziosmanpasa",
+        "Coordinates": "41.0734206, 28.9015561330191",
+        "Rating": 2
+      },
+      {
+        "District": "Gungoren",
+        "Coordinates": "41.0198102, 28.8748379095875",
+        "Rating": 2
+      },
+      {
+        "District": "Kadikoy",
+        "Coordinates": "40.98113355, 29.0650755879103",
+        "Rating": 1
+      },
+      {
+        "District": "Kagithane",
+        "Coordinates": "41.08303245, 28.9838506957925",
+        "Rating": 2
+      },
+      {
+        "District": "Kartal",
+        "Coordinates": "40.9019, 29.1737",
+        "Rating": 2
+      },
+      {
+        "District": "Kucukcekmece",
+        "Coordinates": "40.9960, 28.7748",
+        "Rating": 2
+      },
+      {
+        "District": "Maltepe",
+        "Coordinates": "40.943396, 29.159671719134",
+        "Rating": 1
+      },
+      {
+        "District": "Pendik",
+        "Coordinates": "40.8775, 29.2725",
+        "Rating": 2
+      },
+      {
+        "District": "Sancaktepe",
+        "Coordinates": "40.99943825, 29.2252495030497",
+        "Rating": 1
+      },
+      {
+        "District": "Sariyer",
+        "Coordinates": "41.1667, 29.0500",
+        "Rating": 1
+      },
+      {
+        "District": "Silivri",
+        "Coordinates": "41.0739, 28.2464",
+        "Rating": 1
+      },
+      {
+        "District": "Sultanbeyli",
+        "Coordinates": "40.9658834, 29.2723659",
+        "Rating": 2
+      },
+      {
+        "District": "Sultangazi",
+        "Coordinates": "41.1081703, 28.8613138",
+        "Rating": 2
+      },
+      {
+        "District": "Sile",
+        "Coordinates": "41.1754, 29.6133",
+        "Rating": 1
+      },
+      {
+        "District": "Sisli",
+        "Coordinates": "41.061672, 28.9842605962855",
+        "Rating": 2
+      },
+      {
+        "District": "Tuzla",
+        "Coordinates": "40.89265165, 29.3721729469573",
+        "Rating": 1
+      },
+      {
+        "District": "Umraniye",
+        "Coordinates": "41.02721865, 29.1274593422018",
+        "Rating": 1
+      },
+      {
+        "District": "Uskudar",
+        "Coordinates": "41.0352214, 29.0573344413904",
+        "Rating": 2
+      },
+      {
+        "District": "Zeytinburnu",
+        "Coordinates": "41.0056152, 28.9081983220057",
+        "Rating": 2
+      }
+    ]

@@ -17,7 +17,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/weatherapp/public"
+            "input": "apps/weatherapp/src/assets",
+            "output": "/assets"   
           }
         ],
         "styles": ["apps/weatherapp/src/styles.css"]

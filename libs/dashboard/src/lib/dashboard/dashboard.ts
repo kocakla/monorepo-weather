@@ -6,7 +6,7 @@ import { WeatherComponent } from './weather-ui';
 import { ForecastComponent } from './forecast-ui';
 import { CurrentWeather } from 'libs/data/src/lib/data/models/current-weather.model';
 import { WeatherForecast } from 'libs/data/src/lib/data/models/weather-forecast.model';
-import { MapComponent } from 'libs/map/src/lib/map/map-ui';
+import { MapComponent } from 'libs/map/src/lib/map/map';
 import { map } from 'leaflet';
 
 type DashboardMode = 'current' | 'forecast' | 'map';
@@ -35,10 +35,5 @@ export class WeatherDashboardComponent {
   }
   toggleMode(newMode: DashboardMode) {
     this.mode = newMode;
-
-    if (newMode === 'map') {
-      // DOM hazır olunca invalidate
-      setTimeout(() => this.mapComponent?.invalidateMap(), 0);
-    }
   }
 }
